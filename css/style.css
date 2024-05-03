@@ -17,6 +17,7 @@ body{
 .container{
     width: 65%;
     margin: auto;
+    max-width: 1000px;
 }
 .logo-area img{
     width: 170px;
