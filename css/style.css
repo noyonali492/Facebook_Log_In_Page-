@@ -44,8 +44,37 @@ body{
 .login-area .password,
 .login-area .login{
     float: left;
+    margin-right: 13px;
+}
+.login-area .login{
+    margin-right: 0px;
 }
 .login-area label{
     font-size: 14px;
     margin-bottom: 8px;
 }
+.login-area input[type="text"],
+.login-area input[type="password"]{
+    border: 1px solid #000;
+    font-size: 14px;
+    font-weight: 400;
+    padding: 2px 6px;
+}
+.login-area .password a{
+    text-decoration: none;
+    font-weight: 300;
+    color: #9cb4d8;
+    font-size: 13px;
+}
+.login-area .password a:hover{
+    text-decoration: underline;
+}
+.login-area input[type="submit"]{
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    color: #fff;
+    padding: 3px 5px;
+    margin-top: 27px;
+}
+
+
