@@ -1,1 +1,0 @@
-<a href="create.php">Add New User</a>
