@@ -78,7 +78,8 @@ body{
     margin-top: 27px;
 }
 .singup{
-    padding: 20px 0px;
+    background: linear-gradient(#ffffff, #D4D9E9);
+    padding: 25px 0px;
 }
 .singup::after{
     content: '';
@@ -87,8 +88,8 @@ body{
 }
 
 .left-area{
- width: 55%;
- float: left;
+    width: 55%;
+    float: left;
 }
 .left-area p{
     font-size: 20px;
@@ -101,9 +102,9 @@ body{
 
 
 .left-area h2{
- font-size: 30px;
- color: #333;
- margin-top:0px;
+    font-size: 30px;
+    color: #333;
+    margin-top:0px;
 }
 .left-area h4{
     font-size: 19px;
@@ -176,7 +177,7 @@ body{
     text-decoration: underline;
 }
 .gender{
- margin: 10px 0px;
+    margin: 10px 0px;
  
 }
 .gender label{
@@ -190,35 +191,35 @@ body{
     margin-bottom: 20px;
 }
 .text-box p{
- font-size: 13px;
- color: #777;
- width: 80%;
+    font-size: 13px;
+    color: #777;
+    width: 80%;
 }
 .text-box a{
     text-decoration: none;
     color: #365899;
 }
 .text-box a:hover{
- text-decoration: underline;
+    text-decoration: underline;
 }
 .btn{
     margin-bottom: 30px;
 }
 
 .btn input{
- background: linear-gradient(#67ae55, #578843);
- box-shadow: inset 0px 1px 1px #a4e388;
- border-color: #3b6322, #3b6e22, #2c5115;
- border-width: 1px;
- border-style: solid;
- padding: 7px 14px;
- min-width: 194px;
- text-align: center;
- color: #fff;
- border-radius: 3px;
- font-weight: 400;
- font-size: 20px;
- transition: 0.5s;
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0px 1px 1px #a4e388;
+    border-color: #3b6322, #3b6e22, #2c5115;
+    border-width: 1px;
+    border-style: solid;
+    padding: 7px 14px;
+    min-width: 194px;
+    text-align: center;
+    color: #fff;
+    border-radius: 3px;
+    font-weight: 400;
+    font-size: 20px;
+    transition: 0.5s;
 }
 .btn input:hover{
     background: linear-gradient(#578843, #67ae55,);
@@ -232,7 +233,4 @@ body{
 }
 .busuness a:hover{
     text-decoration: underline;
-}
-.busuness{
-    
 }
