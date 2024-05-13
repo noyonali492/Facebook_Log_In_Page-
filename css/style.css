@@ -78,19 +78,29 @@ body{
     margin-top: 27px;
 }
 
-.singup-area{
- background-color: #000;
+.singup::after{
+    content: '';
+    clear: both;
+    display: block;
 }
+
 .left-area{
-
+ width: 55%;
+ float: left;
 }
-
+.left-area p{
+    font-size: 20px;
+    color: #0e385f;
+    font-weight: 600;
+}
+.left-area img{
+    width: 100%;
+}
 
 .right-area{
-
+ width: 45%;
+ float: left;
 }
-
-
 
 .full-name{
 
