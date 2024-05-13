@@ -140,23 +140,40 @@ body{
 .surname{
     width: 48%;
     float: left;
-
 }
-
 .birthdday{
-
+    
+    
 }
-
-
-
+.birthdday h4{
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
 .birth-date{
-
+    overflow: hidden;
+    float: left;
+    width: 200px;
 }
 
-
+.birth-date select{
+    border: 1px solid #ccc;
+    padding: 5px;
+    float: left;
+}
 
 .birth-link{
-
+    float: left;
+    width: 190px;
+    
+}
+.birth-link a{
+    font-size: 13px;
+    display: block;
+    line-height: 1.1;
+    text-decoration: none;
+}
+.birth-link a:hover{
+    text-decoration: underline;
 }
 .gender{
 
