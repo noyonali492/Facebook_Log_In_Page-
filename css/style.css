@@ -101,6 +101,15 @@ body{
  width: 45%;
  float: left;
 }
+.left-area h2{
+ font-size: 30px;
+ color: #333;
+ margin: 0px;
+}
+.left-area h4{
+    font-size: 19px;
+    color: #1d2129;
+}
 
 .full-name{
 
