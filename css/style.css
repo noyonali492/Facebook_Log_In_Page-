@@ -77,7 +77,9 @@ body{
     padding: 3px 5px;
     margin-top: 27px;
 }
-
+.singup{
+    padding: 20px 0px;
+}
 .singup::after{
     content: '';
     clear: both;
@@ -97,24 +99,49 @@ body{
     width: 100%;
 }
 
-.right-area{
- width: 45%;
- float: left;
-}
+
 .left-area h2{
  font-size: 30px;
  color: #333;
- margin: 0px;
+ margin-top:0px;
 }
 .left-area h4{
     font-size: 19px;
     color: #1d2129;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 10px;
 }
+.right-area{
+    width: 45%;
+    float: left;
+   }
+.right-area input[type="text"],
+.right-area input[type="password"]{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #bdc7d8;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-size: 18px;
+    margin: 5px 0px;
+}
+
 
 .full-name{
+    overflow: hidden;
+}
+.first-name{
+    width: 48%;
+    float: left;
+    margin-right: 4%;
+    
+}
+.surname{
+    width: 48%;
+    float: left;
 
 }
-
 
 .birthdday{
 
