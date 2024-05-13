@@ -142,8 +142,7 @@ body{
     float: left;
 }
 .birthdday{
-    
-    
+  
 }
 .birthdday h4{
     margin-top: 0px;
@@ -171,25 +170,41 @@ body{
     display: block;
     line-height: 1.1;
     text-decoration: none;
+    color: #365899;
 }
 .birth-link a:hover{
     text-decoration: underline;
 }
 .gender{
-
+ margin: 10px 0px;
+ 
 }
-
+.gender label{
+    font-size: 20px;
+    font-weight: 400;
+    color: #1d2129;
+}
 
 
 .text-box{
-
+    margin-bottom: 20px;
+}
+.text-box p{
+ font-size: 13px;
+ color: #777;
+ width: 80%;
+}
+.text-box a{
+    text-decoration: none;
+    color: #365899;
+}
+.text-box a:hover{
+ text-decoration: underline;
 }
 
 
-.btn{
-
-
-
+.btn input{
+ background: linear-gradient(#67ae55, #578843);
 }
 .busuness{
     
